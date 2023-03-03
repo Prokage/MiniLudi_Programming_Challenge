@@ -17,6 +17,7 @@ int main() {
         gameOver = game.isGameOver();
         if(gameOver){
         	cout<<"Do you want to play again? Type 1 for Yes, anything else for no."<<endl;
+		cin >> playAgain;
 		}
     } 
 	} while(playAgain==1);
